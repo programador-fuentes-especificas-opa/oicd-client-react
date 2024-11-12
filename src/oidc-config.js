@@ -4,7 +4,7 @@ const oidcConfig = {
     RequirePkce : false,  // PKCE Required
     redirect_uri: window.location.origin + '', // Redirect URI after login
     post_logout_redirect_uri: window.location.origin + '',
-    //response_type: "id_token_token",
+    response_type: "id_token_token",
     scope: "openid profile email opa-cd-api", // Scopes you want to request
   };
   
